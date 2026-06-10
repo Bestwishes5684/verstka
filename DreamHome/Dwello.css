@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.2; 
+  font-family:
+    "Montserrat",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+      zoom: 1.02; /* МЕГАЗАЛЕПА*/
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+.navigation {
+  display: flex;
+  gap: 40px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+.search,
+.profile {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.signUp {
+  width: 122px;
+  height: 48px;
+  background-color: #2b1b12;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.searchAndProfile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.aboutSite {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+}
+
+.aboutSite h1 {
+  color: #2B1B12;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.aboutSite p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4F3527;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.HouseMenu {
+  flex: 1;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+}
+.searchLine {
+  display: flex;
+  justify-content: center;
+   transform: translateY(-130px);
+}
+.backgroundSearchLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 120px;
+  width: 900px;
+  background-color: #ddc7bb;
+  border-radius: 8px;
+}
+
+.location,
+.type,
+.priceRange {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  color: #695346;
+}
+.aboutUs{
+  display: flex;
+  gap: 40px;
+}
+.aboutHousePicture{
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.aboutUsText{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutUsText p,h1{
+  font-weight: 700;
+  color: #4F3527;
+}
+ 
+.aboutUsResult{
+  display: flex;
+  justify-content: space-between;
+}
+
+.whyChooseUsSection{
+  margin-bottom: 100px;
+}
+
+.whuChooseUsTextSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  gap: 20px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.whyChooseUsCard{
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+  background-color:#DDC7BB ;
+  margin-top: 40px;
+}
+
+.emptySpace{
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.expertGuidance{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+  gap: 10px;
+}

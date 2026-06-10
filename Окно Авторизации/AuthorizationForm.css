@@ -1,0 +1,123 @@
+
+
+body{
+    font-family: 'Inter', system-ui, sans-serif;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main {
+    display: flex;
+    flex-direction: row;
+   
+}
+.Text{
+    margin-right: 100px;
+}
+.Text1{
+    margin-bottom: 20px;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    max-width: 300px;        /* ← форма не будет шире 400px */
+    width: 100%;             /* ← на телефонах будет резиновой */
+}
+
+.inputGroup a{
+   text-align: right;
+}
+
+
+.inputGroup input {
+    width: 100%;
+    padding: 16px 18px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    border: 2px solid  #948e8e;
+    border-radius: 10px; 
+    transition: all 0.2s;
+    box-sizing: border-box;
+}
+
+.inputGroup input:focus {
+    outline: none;
+    background: #ffffff;
+    border-color: #720560;
+    box-shadow: 0 2px 8px rgba(159, 18, 91, 0.8);
+}
+
+
+
+.signIN{
+    background-color: #312c70;
+    color: white;
+     width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.signIN:hover{
+    background: #262355;
+    border-color: #35326b;
+}
+
+.or{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.google-btn,
+.facebook-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;              /* расстояние между иконкой и текстом */
+    padding: 12px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Кнопка Google */
+.google-btn {
+    background: white;
+    color: #1f2937;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 12px;
+}
+
+.google-btn:hover {
+    background: #f9fafb;
+    border-color: #d1d5db;
+}
+
+/* Кнопка Facebook */
+.facebook-btn {
+    background: #1877f2;    /* фирменный синий Facebook */
+    color: white;
+    border: none;
+}
+
+.facebook-btn:hover {
+    background: #166fe5;
+}
+
+/* Стили для иконок */
+.google-btn img,
+.facebook-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
