@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.2; 
+  line-height: 1.2;
   font-family:
     "Montserrat",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-      zoom: 1.02; /* МЕГАЗАЛЕПА*/
+  zoom: 1.02; /* МЕГАЗАЛЕПА*/
 }
 body {
   max-width: 1200px;
@@ -73,7 +73,7 @@ header {
 }
 
 .aboutSite h1 {
-  color: #2B1B12;
+  color: #2b1b12;
   font-size: 60px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -84,7 +84,7 @@ header {
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 700;
-  color: #4F3527;
+  color: #4f3527;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -98,12 +98,12 @@ header {
 .searchLine {
   display: flex;
   justify-content: center;
-   transform: translateY(-130px);
+  transform: translateY(-130px);
 }
 .backgroundSearchLine {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 120px;
   width: 900px;
   background-color: #ddc7bb;
@@ -122,37 +122,39 @@ header {
   height: 50px;
   border-radius: 8px;
   color: #695346;
+  padding-right: 10px;
 }
-.aboutUs{
+.aboutUs {
   display: flex;
   gap: 40px;
 }
-.aboutHousePicture{
+.aboutHousePicture {
   width: 500px;
   max-width: 500px;
   border-radius: 10px;
 }
-.aboutUsText{
+.aboutUsText {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.aboutUsText p,h1{
+.aboutUsText p,
+h1 {
   font-weight: 700;
-  color: #4F3527;
+  color: #4f3527;
 }
- 
-.aboutUsResult{
+
+.aboutUsResult {
   display: flex;
   justify-content: space-between;
 }
 
-.whyChooseUsSection{
+.whyChooseUsSection {
   margin-bottom: 100px;
 }
 
-.whuChooseUsTextSection{
+.whuChooseUsTextSection {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,20 +163,20 @@ header {
   gap: 20px;
 }
 
-.card{
+.card {
   display: flex;
   justify-content: space-evenly;
 }
 
-.whyChooseUsCard{
+.whyChooseUsCard {
   width: 230px;
   height: 230px;
   border-radius: 10px;
-  background-color:#DDC7BB ;
+  background-color: #ddc7bb;
   margin-top: 40px;
 }
 
-.emptySpace{
+.emptySpace {
   display: flex;
   align-items: center;
   padding-left: 12px;
@@ -184,10 +186,75 @@ header {
   border-radius: 10px;
 }
 
-.expertGuidance{
+.expertGuidance {
   display: flex;
   flex-direction: column;
   text-align: left;
   padding: 20px;
   gap: 10px;
+}
+
+.ourProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.productList {
+  display: flex;
+  gap: 50px;
+}
+.productCard {
+  width: 340px;
+  height: 480px;
+  background-color: #ddc7bb;
+  border-radius: 30px;
+}
+.productCard img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 30px 30px 0 0;
+}
+.descriptionCard button {
+  height: 40px;
+  width: 100px;
+}
+.descriptionCard img {
+  width: 24px;
+  height: 24px;
+}
+.descriptionCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+}
+
+.firstStroke {
+  display: flex;
+  padding-left: 20px;
+}
+
+.secondStroke {
+  display: flex;
+  padding-left: 20px;
+  gap: 15px;
+}
+
+.thirdStroke {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.thirdStroke p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #4f3527;
+}
+
+.textAndicon{
+  display: flex;
 }
