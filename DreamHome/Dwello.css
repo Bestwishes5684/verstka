@@ -1,5 +1,5 @@
 * {
-   margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -385,10 +385,8 @@ h1 {
   background-color: #ddc7bb;
   padding: 30px 0; /* Отступы сверху/снизу */
   flex: 0 0 auto;
-  color: #4F3527;
- 
+  color: #4f3527;
 }
-
 
 .footerSiteConteiner {
   max-width: 1200px;
@@ -397,8 +395,40 @@ h1 {
   box-sizing: border-box;
 }
 
-.logoFooterContent{
+.logoFooterContent {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.logoFooterContent img {
+  width: 20px;
+  height: 20px;
+}
+
+.deskSecFooter {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.supportSec {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.findUsSec {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ourSocialSec {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
