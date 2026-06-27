@@ -1,23 +1,25 @@
 * {
-  margin: 0;
+   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.2;
-  font-family:
-    "Montserrat",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   zoom: 1.02; /* МЕГАЗАЛЕПА*/
 }
 body {
+  margin: 0; /* Убираем авто-центрирование */
+  padding: 0; /* Убираем отступы */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.contentWrapper {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  min-height: 100vh;
+  flex: 1 0 auto; /* Растягивается, прижимая футер вниз */
+  width: 100%;
+  box-sizing: border-box;
 }
-
 header {
   display: flex;
   align-items: center;
@@ -365,15 +367,38 @@ h1 {
   justify-content: space-between;
   flex-direction: row;
 }
-.emailSection{
+.emailSection {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.emailAddressInput{
+.emailAddressInput {
   width: 505px;
   height: 58px;
   border-radius: 10px;
-  background-color: #DDC7BB;
+  background-color: #ddc7bb;
   border: none;
+}
+
+.footerSite {
+  width: 100%;
+  background-color: #ddc7bb;
+  padding: 30px 0; /* Отступы сверху/снизу */
+  flex: 0 0 auto;
+  color: #4F3527;
+ 
+}
+
+
+.footerSiteConteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px; /* Отступы по бокам, чтобы текст не прилипал */
+  box-sizing: border-box;
+}
+
+.logoFooterContent{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
